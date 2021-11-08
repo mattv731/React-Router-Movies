@@ -35,8 +35,8 @@ export default function App () {
 
   return (
     <div>
-      <SavedList list={[/* streach */]}/>
-      <Route exact path={'/movies/:id'}>
+      <SavedList list={[/* stretch */]}/>
+      <Route path='/movies/:movieID'>
         <Movie />
       </Route>
       <Route exact path ='/'>
